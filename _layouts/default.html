@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Lingkar Seniman Menulis </title>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Cardo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="z-max w-25-ns w-100 h-100-ns h-10 fixed br-ns bg-white">
+    <nav>
+      <a class="link db-ns dib tc black f4-ns f7 underline-hover pv3-ns pv2 ph4-ns ph2 bb-ns" href="/">Buletin</a>
+      <a class="link db-ns dib tc black f4-ns f7 underline-hover pv3-ns pv2 ph4-ns ph2 bb-ns" href="/tentang/">Tentang</a>
+      <a class="link db-ns dib tc black f4-ns f7 underline-hover pv3-ns pv2 ph4-ns ph2 bb-ns" href="/kontak/">Kontak</a>
+    </nav>
+
+    <section class="center pa4 bottom">
+      <img class="rotate" src="/assets/logo.png" alt="LSM">
+    </section>
+  </header>
+
+  <div class="fr w-75 mt2">
+    {{ content }}
+  </div>
+</body>
