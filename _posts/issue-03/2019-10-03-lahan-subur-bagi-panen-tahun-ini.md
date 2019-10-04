@@ -1,6 +1,6 @@
 ---
 issue: Issue no. 03
-title: lahan subur bagi panen tahun ini
+title: Lahan Subur Bagi Panen Tahun Ini
 author: Sulit Rusdi
 
 categories:

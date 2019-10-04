@@ -4,13 +4,11 @@ layout: default
 
 <article class="fl w-70 ma3 ml5 mb5">
   <div class="fl w-70">
-    <div class="ttc f2 black"> Issue No. {{page.tag | remove: "issue-"}} </div>
-    <div class="ttc f2 black"> {{page.title}} </div>
+    <div class="f2 black"> {{page.title | split: " - " | first}} </div>
+    <div class="f2 black"> {{page.title | split: " - " | last}} </div>
     <div class="f4 black mt2"> {{page.tanggal}} </div>
     <article class="w-100 center pv2 mt2">
-      <div class="aspect-ratio aspect-ratio--3x4">
-        <div class="aspect-ratio--object cover" style="background:url({{page.cover}}) center;"></div>
-      </div>
+      <img src="{{ page.cover }}" alt="{{page.title}}">
     </article>
 
     <div class="fl lh-copy">

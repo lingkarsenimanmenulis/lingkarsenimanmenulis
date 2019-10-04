@@ -1,6 +1,6 @@
 ---
 issue: Issue no. 01
-title: keluhan dan pengaduan franchise
+title: Keluhan dan Pengaduan Franchise
 author: Sabana Ayam
 footer:
 
